@@ -5,9 +5,64 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  width: 100%;
+}
+
+html, #root {
+  height: 100%;
+  width: 100%;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.contenedor {
+  display: flex;
+  flex: 1 auto;
+  flex-wrap: wrap;
+}
+
+.fila {
+  flex-direction: row;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.js-around {
+  justify-content: space-around;
+}
+
+.js-between {
+  justify-content: space-between;
+}
+
+.js-evenly {
+  justify-content: space-evenly;
+}
+
+.center {
+  align-items: center;
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.text-1 {
+  width: 300px;
+}
+
+.justified {
+  text-align: justify;
+}
+
+.img-style {
+  width: 75%;
+  padding: 30px;
 }
