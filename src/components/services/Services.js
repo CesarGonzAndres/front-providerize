@@ -1,13 +1,12 @@
 import React, { Fragment } from 'react'
-import land from '../../assets/imgOne.jpeg'
-
+import { getImgUrl } from '../../utils'
 export default class Services extends React.Component {
   render () {
     return (
       <Fragment>
         <div className='container column'>
           <div className="contenedor center">
-            <img className='img-style' src={land} alt="land" />
+            <img className='img-style' src={getImgUrl('imgOne.jpeg')} alt="land" />
           </div>
           <div className="contenedor fila">
             <div className='contenedor column align-center'>
